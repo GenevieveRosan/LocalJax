@@ -1,0 +1,75 @@
+<!DOCTYPE html />
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/bow.svg" type="image/x-icon" />
+    <title>Local Jax</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div style="float: left;">
+            <a href="#businesses" class="nav-item" title="Businesses">Businesses</a>
+            <a href="#contact" title="Contact Us">Contact Us</a>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <!-- Heading -->
+    <p class="name"><span class="highlight-powder blue">Local Jax</span></p>
+    <p class="intro"> Hello, Everyone!</i> Local Jax is a website that strives to promote small businesses located in Jacksonville. Our mission is to shed light on the hardworking people of Jacksonville, FL. Supporting small businesses is critical to the success of Jacksonville as a whole. We will introduce you to local gems that you can support in our community!</p>
+
+    <!-- Section for Small Businesses -->
+    <div id="businesses" class="powder-blue-background">
+        <div class="margin">
+            <h2 class="section-title"><span class="highlight-white">Small Businesses to Support</span></h2>
+
+            <!-- Business 1 -->
+            <p class="proj-title"><b>Kwench Juice Cafe</b></p>
+            <p class="proj-text">At Kwench Juice Cafe, you can enjoy a variety of different acai bowls, smoothies, and juices. Has great customer service and can satisfy your craving with a refreshing snack. All for a delicious price. Located @ 1547-1 University Blvd W Jacksonville, FL</p>
+
+            <!-- Business 2 -->
+            <p class="proj-title"><b>That Girl Professional Cleaning Service</b></p>
+            <p class="proj-text">That Girl Professional Cleaning Service provides different types of quality cleaning services such as office cleaning, home cleaning, lawn services, and more. Contact Info: (904)-713-5815</p>
+
+            <!-- Business 3 -->
+            <p class="proj-title"><b>Pretty, Prissy, and Sadity Walkin Glam Salon</b></p>
+            <p class="proj-text">The Pretty, Prissy, and Sadity Walkin Glam Salon provides many services such as nails, makeup, hair, and waxing. You can walk-in or book an appointment. Located @ 1111 Arlington Road North, Jacksonville, FL</p>
+
+            <!-- Business 4 -->
+            <p class="proj-title"><b>Pour Mike's Coffee House</b></p>
+            <p class="proj-text">At Pour Mike's you can enjoy many drinks such as coffee, tea, latte, and many more. Located @ 1515 County Rd 210 Suite 101, St John, FL</p>
+        </div>
+    </div>
+
+    <!-- Section for Contact Us (formerly Past Projects) -->
+    <div id="contact" class="white-background">
+        <h2 class="section-title"><span class="highlight-yellow">Contact Us</span></h2>
+        
+        <!-- Contact Form -->
+        <p class="proj-title"><b>Get in Touch</b></p>
+        <p class="proj-text">We'd love to hear from you! Whether you have a question about supporting local businesses, need recommendations, want your small business to be featured next, or just want to say hello, feel free to reach out!</p>
+
+        <form action="https://formspree.io/f/xpwzgada" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+</body>
+
+</html>
